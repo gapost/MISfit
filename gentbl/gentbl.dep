@@ -1,0 +1,148 @@
+# Microsoft Developer Studio Generated Dependency File, included by gentbl.mak
+
+.\calc.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	
+
+.\calc_gaas.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	
+
+.\calc_ge.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	
+
+.\calc_q.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	
+
+.\calc_q_gaas.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	
+
+.\calc_q_ge.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	
+
+.\gentbl.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\gentbl.h"\
+	".\misint.h"\
+	".\qit.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	

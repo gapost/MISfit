@@ -1,0 +1,89 @@
+# Microsoft Developer Studio Generated Dependency File, included by graph.mak
+
+.\axis.cpp : \
+	".\GraphData.h"\
+	".\GraphDlg.h"\
+	
+
+.\AxisWnd.cpp : \
+	".\AxisWnd.h"\
+	".\GraphData.h"\
+	".\GraphPaneWnd.h"\
+	".\offscreen.h"\
+	
+
+.\graph.rc : \
+	".\icon1.ico"\
+	".\MAGNIFY.CUR"\
+	".\res\graph.rc2"\
+	
+
+.\GraphData.cpp : \
+	".\GraphData.h"\
+	
+
+.\GraphDlg.cpp : \
+	".\GraphData.h"\
+	".\GraphDlg.h"\
+	".\GraphWnd.h"\
+	
+
+.\graphframewnd.cpp : \
+	".\GraphFrameWnd.h"\
+	".\GraphWnd.h"\
+	
+
+.\GraphPaneWnd.cpp : \
+	".\AxisWnd.h"\
+	".\GraphData.h"\
+	".\GraphPaneWnd.h"\
+	".\offscreen.h"\
+	
+
+.\GraphWnd.cpp : \
+	".\AxisWnd.h"\
+	".\GraphData.h"\
+	".\GraphPaneWnd.h"\
+	".\GraphWnd.h"\
+	".\offscreen.h"\
+	
+
+.\offscreen.cpp : \
+	".\offscreen.h"\
+	
+
+.\Series.cpp : \
+	".\GraphData.h"\
+	".\GraphDlg.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\cppmath\cppmath.h"\
+	"..\cppmath\cppminpack.h"\
+	"..\cppmath\filters.h"\
+	"..\cppmath\marsaglia.h"\
+	"..\cppmath\ode.h"\
+	"..\cppmath\ptable.h"\
+	"..\cppmath\stopwatch.h"\
+	"..\cppmath\tnt110\tnt.h"\
+	"..\cppmath\tnt110\tnt_array1d.h"\
+	"..\cppmath\tnt110\tnt_array1d_utils.h"\
+	"..\cppmath\tnt110\tnt_array2d.h"\
+	"..\cppmath\tnt110\tnt_array2d_utils.h"\
+	"..\cppmath\tnt110\tnt_array3d.h"\
+	"..\cppmath\tnt110\tnt_array3d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array1d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array1d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array2d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array2d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array3d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array3d_utils.h"\
+	"..\cppmath\tnt110\tnt_math_utils.h"\
+	"..\cppmath\tnt110\tnt_sparse_matrix_csr.h"\
+	"..\cppmath\tnt110\tnt_version.h"\
+	"..\cppmath\tridiag.h"\
+	"..\cppmath\tridiagsym.h"\
+	"..\cppmath\utils.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

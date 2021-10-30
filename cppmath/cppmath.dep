@@ -1,0 +1,643 @@
+# Microsoft Developer Studio Generated Dependency File, included by cppmath.mak
+
+.\bcuint.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\bmp.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\bvp.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\calculus.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\cppfft.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\Enorm.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\fileutil.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\four1.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\gridrefiner.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\imtql2.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\integ.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\interp.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\linalg.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\Lmdif.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\funcs.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\Lmpar.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\funcs.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\ptable.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\Qrfac.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\funcs.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\Qrsolv.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\funcs.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\rungekutta.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\sfunc.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\stoermer.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	
+
+.\util.cpp : \
+	".\cppmath.h"\
+	".\cppminpack.h"\
+	".\filters.h"\
+	".\marsaglia.h"\
+	".\ode.h"\
+	".\ptable.h"\
+	".\stopwatch.h"\
+	".\tnt110\tnt.h"\
+	".\tnt110\tnt_array1d.h"\
+	".\tnt110\tnt_array1d_utils.h"\
+	".\tnt110\tnt_array2d.h"\
+	".\tnt110\tnt_array2d_utils.h"\
+	".\tnt110\tnt_array3d.h"\
+	".\tnt110\tnt_array3d_utils.h"\
+	".\tnt110\tnt_fortran_array1d.h"\
+	".\tnt110\tnt_fortran_array1d_utils.h"\
+	".\tnt110\tnt_fortran_array2d.h"\
+	".\tnt110\tnt_fortran_array2d_utils.h"\
+	".\tnt110\tnt_fortran_array3d.h"\
+	".\tnt110\tnt_fortran_array3d_utils.h"\
+	".\tnt110\tnt_math_utils.h"\
+	".\tnt110\tnt_sparse_matrix_csr.h"\
+	".\tnt110\tnt_version.h"\
+	".\tridiag.h"\
+	".\tridiagsym.h"\
+	".\utils.h"\
+	

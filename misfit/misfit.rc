@@ -1,0 +1,501 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\misfit.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\misfit.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 60
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MISfit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MISfit Version 1.3",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003-2010\nGeorge Apostolopoulos, gapost@ipta.demokritos.gr",
+                    IDC_STATIC,40,29,188,24
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_QITFIT_DIALOG DIALOGEX 0, 0, 357, 242
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "qitfit"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Insulator",IDC_STATIC,7,7,167,50
+    LTEXT           "Cox (uF/cm^2)",IDC_STATIC,22,20,54,8
+    EDITTEXT        IDC_COX,76,20,40,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "EOT (nm)",IDC_STATIC,23,39,30,8
+    EDITTEXT        IDC_EOT,76,36,41,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Si Substrate",IDC_STATIC,7,60,168,36
+    CONTROL         "n-type",IDC_SUBTYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,17,70,35,10
+    CONTROL         "p-type",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,17,82,35,10
+    CTEXT           "Doping\n(#/cm^3)",IDC_STATIC,67,71,43,18
+    EDITTEXT        IDC_DOPING,114,73,49,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "Calulation Options",IDC_STATIC,7,99,168,64
+    CONTROL         "QM Correction",IDC_QUANT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,29,112,59,10
+    CONTROL         "Exact",IDC_EXACT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    106,112,33,10
+    LTEXT           "Plot:",IDC_STATIC,29,128,14,8
+    COMBOBOX        IDC_PLOTY_COMBO,62,126,75,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Plot:",IDC_STATIC,30,144,14,8
+    COMBOBOX        IDC_PLOTX_COMBO,62,142,75,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Intertface Traps",IDC_STATIC,182,7,168,89
+    LISTBOX         IDC_TRAP_LIST,190,20,114,67,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_ADD_TRAP,308,20,38,15
+    PUSHBUTTON      "Del",IDC_DEL_TRAP,308,37,38,15
+    PUSHBUTTON      "Edit",IDC_EDIT_TRAP,308,54,38,15
+    GROUPBOX        "Parasitic Conductances  (S/cm^2)",IDC_STATIC,182,99,168,
+                    31
+    LTEXT           "Gs",IDC_STATIC,190,112,21,8
+    EDITTEXT        IDC_GS,217,110,40,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Gp",IDC_STATIC,275,112,20,11
+    EDITTEXT        IDC_GP,299,110,40,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Vfb (Volt)",IDC_STATIC,190,144,34,8
+    EDITTEXT        IDC_VFB,224,142,33,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "Data",IDC_STATIC,7,168,343,50
+    LISTBOX         IDC_DATA_LIST,13,179,287,34,LBS_NOINTEGRALHEIGHT | 
+                    LBS_NOSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Load",IDC_LOAD,305,179,38,15,WS_GROUP
+    PUSHBUTTON      "Unload",IDC_UNLOAD,305,197,38,15,WS_GROUP
+    PUSHBUTTON      "Save Fit",IDC_SAVE,111,224,45,11
+    PUSHBUTTON      "Save Par/s",IDC_SAVE2,156,224,45,11
+    DEFPUSHBUTTON   "Calc CV",ID_CALC,201,224,45,11
+    LTEXT           "Trap Shift (V)",IDC_STATIC,264,144,40,8
+    EDITTEXT        IDC_TRAP_SHIFT,307,142,32,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_FREQ_DLG DIALOG DISCARDABLE  0, 0, 142, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter frequency"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,68,7,67,12,ES_AUTOHSCROLL
+    LTEXT           "Frequency (Hz) :",IDC_STATIC,7,9,50,8
+    DEFPUSHBUTTON   "OK",IDOK,18,30,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,73,30,50,14
+END
+
+IDD_TRAP_EDIT DIALOG DISCARDABLE  0, 0, 174, 246
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Trap Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_TRAP_MODE,7,10,83,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "electron trap",IDC_TRAPTYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,103,7,53,10
+    CONTROL         "hole trap",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,103,
+                    18,42,10
+    LTEXT           "Dit (#/cm^2/eV)",IDC_STATIC,7,34,57,8
+    EDITTEXT        IDC_DIT,66,31,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "c (cm^2)",IDC_STATIC,7,47,57,8
+    EDITTEXT        IDC_SS,66,46,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "Gaussian",IDC_STATIC,7,59,160,49
+    LTEXT           "Eo (eV)",IDC_STATIC,34,74,45,8
+    EDITTEXT        IDC_E0,84,71,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "DE (eV)",IDC_STATIC,34,89,45,8
+    EDITTEXT        IDC_DE,84,86,45,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "Matrix",IDC_STATIC,7,109,160,103
+    LTEXT           "Et - Ei (eV)",IDC_STATIC,28,121,42,8
+    EDITTEXT        IDC_ET,18,134,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_ET2,18,149,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_ET3,18,164,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_ET4,18,179,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_ET5,18,194,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Dit (#/cm^2/eV)",IDC_STATIC,106,121,55,8
+    EDITTEXT        IDC_DITM,105,134,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DITM2,105,149,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DITM3,105,164,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DITM4,105,179,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DITM5,105,194,52,12,ES_RIGHT | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,33,225,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,225,50,14
+END
+
+IDD_BASIC_PROP DIALOG DISCARDABLE  0, 0, 210, 159
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Basic Parameters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Insulator",IDC_STATIC,7,7,196,27
+    LTEXT           "Ci (uF/cm^2)",IDC_STATIC,15,19,54,8
+    EDITTEXT        IDC_COX,69,18,38,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "EOT (nm)",IDC_STATIC,121,20,31,8
+    EDITTEXT        IDC_EOT,159,18,38,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    GROUPBOX        "Substrate",IDC_STATIC,7,36,196,50
+    COMBOBOX        IDC_COMBO_SUB,19,48,44,65,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Charge Quantization",IDC_QUANT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,89,49,89,10
+    CONTROL         "n-type",IDC_SUBTYPE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,17,69,35,10
+    CONTROL         "p-type",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,63,69,35,10
+    CTEXT           "Doping\n(#/cm^3)",IDC_STATIC,100,66,43,18
+    EDITTEXT        IDC_DOPING,147,68,49,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "Parasitic Conductances  (S/cm^2)",IDC_STATIC,7,90,196,
+                    31
+    CTEXT           "series Gs",IDC_STATIC,14,99,21,15
+    EDITTEXT        IDC_GS,43,101,40,12,ES_RIGHT | ES_AUTOHSCROLL
+    CTEXT           "shunt Gh",IDC_STATIC,108,100,20,16
+    EDITTEXT        IDC_GP,135,101,40,12,ES_RIGHT | ES_AUTOHSCROLL
+    GROUPBOX        "Flat band shift",IDC_STATIC,7,123,196,28
+    LTEXT           "Vfb (Volt)",IDC_STATIC,15,135,34,8
+    EDITTEXT        IDC_VFB,49,133,33,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Trap Shift (V)",IDC_STATIC,100,135,40,8
+    EDITTEXT        IDC_TRAP_SHIFT,144,133,32,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_TRAP_PROP DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Interface Traps"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_TRAP_LIST,7,7,104,110,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_ADD_TRAP,125,7,60,15
+    PUSHBUTTON      "Del",IDC_DEL_TRAP,125,29,60,15
+    PUSHBUTTON      "Edit",IDC_EDIT_TRAP,125,51,60,15
+END
+
+IDD_DATA_PROP DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Load Data",IDC_LOAD,71,133,42,14,WS_GROUP
+    PUSHBUTTON      "Unload",IDC_UNLOAD,116,133,42,14,WS_GROUP
+    LISTBOX         IDC_DATA_LIST,7,7,196,112,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add Model Curve",IDC_NEW_FREQ,7,133,61,14,WS_GROUP
+    PUSHBUTTON      "Save",IDC_SAVE,161,133,42,14,WS_GROUP
+END
+
+IDD_PLOT_PROP DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Plot Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Y axis options:",IDC_STATIC,7,9,46,8
+    COMBOBOX        IDC_PLOTY_COMBO,102,7,75,112,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "X axis options:",IDC_STATIC,8,25,46,8
+    COMBOBOX        IDC_PLOTX_COMBO,102,23,75,64,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Correct data for Gs,Gh",IDC_CORR,"Button",
+                    BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,7,55,103,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,0,1
+ PRODUCTVERSION 1,3,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "George Apostolopoulos, gapost@ipta.demokritos.gr\0"
+            VALUE "FileDescription", "MISfit MFC Application\0"
+            VALUE "FileVersion", "1, 3, 0, 1\0"
+            VALUE "InternalName", "misfit\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003-2010, George Apostolopoulos\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "misfit.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "MISfit\0"
+            VALUE "ProductVersion", "1, 3, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_QITFIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_FREQ_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_TRAP_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_BASIC_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_TRAP_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DATA_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PLOT_PROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_QITFIT_DIALOG DLGINIT
+BEGIN
+    IDC_PLOTY_COMBO, 0x403, 5, 0
+0x2c43, 0x4720, "\000" 
+    IDC_PLOTY_COMBO, 0x403, 10, 0
+0x2c43, 0x6c20, 0x676f, 0x4728, 0x0029, 
+    IDC_PLOTY_COMBO, 0x403, 15, 0
+0x6f6c, 0x2867, 0x2943, 0x202c, 0x6f6c, 0x2867, 0x2947, "\000" 
+    IDC_PLOTY_COMBO, 0x403, 9, 0
+0x6943, 0x2c74, 0x4720, 0x7469, "\000" 
+    IDC_PLOTY_COMBO, 0x403, 14, 0
+0x6943, 0x2c74, 0x6c20, 0x676f, 0x4728, 0x7469, 0x0029, 
+    IDC_PLOTY_COMBO, 0x403, 19, 0
+0x6f6c, 0x2867, 0x6943, 0x2974, 0x202c, 0x6f6c, 0x2867, 0x6947, 0x2974, 
+"\000" 
+    IDC_PLOTY_COMBO, 0x403, 1, 0
+"\000" 
+    IDC_PLOTX_COMBO, 0x403, 3, 0
+0x6756, "\000" 
+    IDC_PLOTX_COMBO, 0x403, 3, 0
+0x7356, "\000" 
+    IDC_PLOTX_COMBO, 0x403, 7, 0
+0x6645, 0x2d73, 0x6945, "\000" 
+    0
+END
+
+IDD_TRAP_EDIT DLGINIT
+BEGIN
+    IDC_TRAP_MODE, 0x403, 8, 0
+0x6e55, 0x6669, 0x726f, 0x006d, 
+    IDC_TRAP_MODE, 0x403, 9, 0
+0x6147, 0x7375, 0x6973, 0x6e61, "\000" 
+    IDC_TRAP_MODE, 0x403, 8, 0
+0x6f4c, 0x6572, 0x746e, 0x007a, 
+    IDC_TRAP_MODE, 0x403, 15, 0
+0x2d35, 0x6f70, 0x6e69, 0x2074, 0x616d, 0x7274, 0x7869, "\000" 
+    0
+END
+
+IDD_PLOT_PROP DLGINIT
+BEGIN
+    IDC_PLOTY_COMBO, 0x403, 5, 0
+0x2c43, 0x4720, "\000" 
+    IDC_PLOTY_COMBO, 0x403, 12, 0
+0x517c, 0x7c73, 0x202c, 0x517c, 0x7469, 0x007c, 
+    IDC_PLOTY_COMBO, 0x403, 9, 0
+0x7343, 0x202c, 0x517c, 0x7c73, "\000" 
+    IDC_PLOTX_COMBO, 0x403, 3, 0
+0x6756, "\000" 
+    IDC_PLOTX_COMBO, 0x403, 3, 0
+0x7356, "\000" 
+    IDC_PLOTX_COMBO, 0x403, 7, 0
+0x6645, 0x2d73, 0x6945, "\000" 
+    0
+END
+
+IDD_BASIC_PROP DLGINIT
+BEGIN
+    IDC_COMBO_SUB, 0x403, 3, 0
+0x6953, "\000" 
+    IDC_COMBO_SUB, 0x403, 3, 0
+0x6547, "\000" 
+    IDC_COMBO_SUB, 0x403, 5, 0
+0x6147, 0x7341, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About MISfit..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\misfit.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

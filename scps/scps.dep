@@ -1,0 +1,161 @@
+# Microsoft Developer Studio Generated Dependency File, included by scps.mak
+
+.\DielectricLayer.cpp : \
+	".\constants.h"\
+	".\DielectricLayer.h"\
+	".\FermiFunc.h"\
+	".\Grid.h"\
+	".\Poisson1D.h"\
+	".\Poisson1DItem.h"\
+	".\Qit.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	
+
+.\FermiFunc.cpp : \
+	".\constants.h"\
+	
+
+.\Ge_MIS.cpp : \
+	".\constants.h"\
+	".\DielectricLayer.h"\
+	".\Grid.h"\
+	".\MIS.h"\
+	".\Poisson1D.h"\
+	".\Poisson1DItem.h"\
+	".\Qit.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	".\SchrodingerBands.h"\
+	".\SiLayer.h"\
+	
+
+.\MIS.cpp : \
+	".\constants.h"\
+	".\DielectricLayer.h"\
+	".\Grid.h"\
+	".\MIS.h"\
+	".\Poisson1D.h"\
+	".\Poisson1DItem.h"\
+	".\Qit.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	".\SchrodingerBands.h"\
+	".\SiLayer.h"\
+	
+
+.\misint.cpp : \
+	"..\gentbl\inc\cnacl.h"\
+	"..\gentbl\inc\cnacl_gaas.h"\
+	"..\gentbl\inc\cnacl_ge.h"\
+	"..\gentbl\inc\cnaq.h"\
+	"..\gentbl\inc\cnaq_gaas.h"\
+	"..\gentbl\inc\cnaq_ge.h"\
+	"..\gentbl\inc\cndcl.h"\
+	"..\gentbl\inc\cndcl_gaas.h"\
+	"..\gentbl\inc\cndcl_ge.h"\
+	"..\gentbl\inc\cndq.h"\
+	"..\gentbl\inc\cndq_gaas.h"\
+	"..\gentbl\inc\cndq_ge.h"\
+	"..\gentbl\inc\lognd.h"\
+	"..\gentbl\inc\lognd_gaas.h"\
+	"..\gentbl\inc\lognd_ge.h"\
+	"..\gentbl\inc\qnacl.h"\
+	"..\gentbl\inc\qnacl_gaas.h"\
+	"..\gentbl\inc\qnacl_ge.h"\
+	"..\gentbl\inc\qnaq.h"\
+	"..\gentbl\inc\qnaq_gaas.h"\
+	"..\gentbl\inc\qnaq_ge.h"\
+	"..\gentbl\inc\qndcl.h"\
+	"..\gentbl\inc\qndcl_gaas.h"\
+	"..\gentbl\inc\qndcl_ge.h"\
+	"..\gentbl\inc\qndq.h"\
+	"..\gentbl\inc\qndq_gaas.h"\
+	"..\gentbl\inc\qndq_ge.h"\
+	"..\gentbl\inc\v.h"\
+	"..\gentbl\inc\v_gaas.h"\
+	"..\gentbl\inc\v_ge.h"\
+	".\constants.h"\
+	".\FermiFunc.h"\
+	".\misint.h"\
+	".\Qit.h"\
+	
+
+.\Poisson1D.cpp : \
+	".\constants.h"\
+	".\Grid.h"\
+	".\Poisson1D.h"\
+	".\Poisson1DItem.h"\
+	".\Qit.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	
+
+.\Poisson1DItem.cpp : \
+	".\constants.h"\
+	".\FermiFunc.h"\
+	".\Grid.h"\
+	".\Poisson1D.h"\
+	".\Poisson1DItem.h"\
+	".\Qit.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	
+
+.\qit.cpp : \
+	".\constants.h"\
+	".\FermiFunc.h"\
+	".\Qit.h"\
+	
+
+.\Schrodinger1D.cpp : \
+	".\constants.h"\
+	".\Grid.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	
+
+.\Schrodinger1DItem.cpp : \
+	".\constants.h"\
+	".\Grid.h"\
+	".\Schrodinger1D.h"\
+	".\Schrodinger1DItem.h"\
+	
+
+.\SchrodingerBands.cpp : \
+	".\constants.h"\
+	".\Grid.h"\
+	".\Schrodinger1DItem.h"\
+	".\SchrodingerBands.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\cppmath\cppmath.h"\
+	"..\cppmath\cppminpack.h"\
+	"..\cppmath\filters.h"\
+	"..\cppmath\marsaglia.h"\
+	"..\cppmath\ode.h"\
+	"..\cppmath\ptable.h"\
+	"..\cppmath\stopwatch.h"\
+	"..\cppmath\tnt110\tnt.h"\
+	"..\cppmath\tnt110\tnt_array1d.h"\
+	"..\cppmath\tnt110\tnt_array1d_utils.h"\
+	"..\cppmath\tnt110\tnt_array2d.h"\
+	"..\cppmath\tnt110\tnt_array2d_utils.h"\
+	"..\cppmath\tnt110\tnt_array3d.h"\
+	"..\cppmath\tnt110\tnt_array3d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array1d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array1d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array2d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array2d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array3d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array3d_utils.h"\
+	"..\cppmath\tnt110\tnt_math_utils.h"\
+	"..\cppmath\tnt110\tnt_sparse_matrix_csr.h"\
+	"..\cppmath\tnt110\tnt_version.h"\
+	"..\cppmath\tridiag.h"\
+	"..\cppmath\tridiagsym.h"\
+	"..\cppmath\utils.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

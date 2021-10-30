@@ -1,0 +1,116 @@
+# Microsoft Developer Studio Generated Dependency File, included by misfit.mak
+
+.\BasicProp.cpp : \
+	".\BasicProp.h"\
+	".\GVdata.h"\
+	".\misfit.h"\
+	".\MISProp.h"\
+	
+
+.\DataProp.cpp : \
+	".\DataProp.h"\
+	".\FreqDlg.h"\
+	".\GVdata.h"\
+	".\misfit.h"\
+	".\MISProp.h"\
+	
+
+.\FreqDlg.cpp : \
+	".\FreqDlg.h"\
+	".\misfit.h"\
+	
+
+.\GVdata.cpp : \
+	".\GVdata.h"\
+	".\misfit.h"\
+	
+
+.\MISDlg.cpp : \
+	".\DataProp.h"\
+	".\GVdata.h"\
+	".\MISDlg.h"\
+	".\misfit.h"\
+	".\MISProp.h"\
+	".\TrapProp.h"\
+	
+
+.\misfit.cpp : \
+	".\DataProp.h"\
+	".\GVdata.h"\
+	".\MISDlg.h"\
+	".\misfit.h"\
+	".\MISProp.h"\
+	".\TrapProp.h"\
+	
+
+.\misfit.rc : \
+	".\res\misfit.ico"\
+	".\res\misfit.rc2"\
+	
+
+.\MISProp.cpp : \
+	".\GVdata.h"\
+	".\misfit.h"\
+	".\MISProp.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\cppmath\cppmath.h"\
+	"..\cppmath\cppminpack.h"\
+	"..\cppmath\filters.h"\
+	"..\cppmath\marsaglia.h"\
+	"..\cppmath\ode.h"\
+	"..\cppmath\ptable.h"\
+	"..\cppmath\stopwatch.h"\
+	"..\cppmath\tnt110\tnt.h"\
+	"..\cppmath\tnt110\tnt_array1d.h"\
+	"..\cppmath\tnt110\tnt_array1d_utils.h"\
+	"..\cppmath\tnt110\tnt_array2d.h"\
+	"..\cppmath\tnt110\tnt_array2d_utils.h"\
+	"..\cppmath\tnt110\tnt_array3d.h"\
+	"..\cppmath\tnt110\tnt_array3d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array1d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array1d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array2d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array2d_utils.h"\
+	"..\cppmath\tnt110\tnt_fortran_array3d.h"\
+	"..\cppmath\tnt110\tnt_fortran_array3d_utils.h"\
+	"..\cppmath\tnt110\tnt_math_utils.h"\
+	"..\cppmath\tnt110\tnt_sparse_matrix_csr.h"\
+	"..\cppmath\tnt110\tnt_version.h"\
+	"..\cppmath\tridiag.h"\
+	"..\cppmath\tridiagsym.h"\
+	"..\cppmath\utils.h"\
+	"..\graph\GraphFrameWnd.h"\
+	"..\graph\GraphWnd.h"\
+	"..\scps\constants.h"\
+	"..\scps\DielectricLayer.h"\
+	"..\scps\FermiFunc.h"\
+	"..\scps\Grid.h"\
+	"..\scps\MIS.h"\
+	"..\scps\misint.h"\
+	"..\scps\Poisson1D.h"\
+	"..\scps\Poisson1DItem.h"\
+	"..\scps\Qit.h"\
+	"..\scps\Schrodinger1D.h"\
+	"..\scps\Schrodinger1DItem.h"\
+	"..\scps\SchrodingerBands.h"\
+	"..\scps\scps.h"\
+	"..\scps\SiLayer.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\TrapDlg.cpp : \
+	".\GVdata.h"\
+	".\misfit.h"\
+	".\TrapDlg.h"\
+	
+
+.\TrapProp.cpp : \
+	".\GVdata.h"\
+	".\misfit.h"\
+	".\MISProp.h"\
+	".\TrapDlg.h"\
+	".\TrapProp.h"\
+	
